@@ -29,17 +29,6 @@ public class MainApplication extends Application implements ReactApplication {
 
         @Override
         protected List<ReactPackage> getPackages() {
-          // 3. Instantiate an instance of the CodePush runtime and add it to the list of
-          // existing packages, specifying the right deployment key. If you don't already
-          // have it, you can run "code-push deployment ls <appName> -k" to retrieve your key.
-          return Arrays.<ReactPackage>asList(
-            new MainReactPackage(),
-            new CodePush("deployment-key-here", MainApplication.this, BuildConfig.DEBUG)
-          );
-        }
-
-        @Override
-        protected List<ReactPackage> getPackages() {
           @SuppressWarnings("UnnecessaryLocalVariable")
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for example:

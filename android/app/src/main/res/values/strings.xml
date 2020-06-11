@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">宝贝</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">5cf5f78dff74ebc7140f6dd4d9d677a5a5d3f832</string>
 </resources>
